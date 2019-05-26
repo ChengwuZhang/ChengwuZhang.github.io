@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 武之洁
+title: 武之洁的小屋
 subtitle:
-description:
+description: 谋定后动，守正出奇！
 keywords:
 author: ChengwuZhang
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -70,10 +70,17 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+  
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
